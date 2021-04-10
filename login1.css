@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 90px;
+    width: 100%;
+    background: #A4DEF9;
+    border-bottom: 1px solid #BBB6DF;
+}
+.fb{
+    position: absolute;
+    height: 85px;
+    width: 190px;
+    left: 9%;
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    position: absolute;
+    font-family: verdana;
+    left: 58%;
+    top: 15px;
+}
+.container .username,
+.container .password{
+    padding-left: 10px;
+}
+.container .username .email,
+.container .password .pass{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+}
+.container .username input,
+.container .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.container button{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #A30B37;
+    border: 1px solid #BD6B73;
+}
+.container button:hover{
+    background: #3B5998;
+}
+.forgot{
+	padding-left : 72%;
+    padding-top: 65px;
+	font-family : Amaranth;
+}
+section{
+    height: 614px;
+    width: 100%;
+    top: 80px;
+    background: linear-gradient(#FDFDFE, #E3EBFF, #ECE8EF, #CFBAE1, #C59FC9);
+    font-family: verdana;
+}
+.lbody{
+    position: absolute;
+    left: 11%;
+    top: 20%;
+}
+.lbody .par1{
+    font-family: Cousine;
+    font-size: 22px;
+	font-weight : bold;
+    margin-left: -30px;
+}
+.lbody .par2{
+   font-family: Cousine;
+    font-size: 22px;
+	font-weight : bold;
+    margin-left: -30px;
+
+}
+.signup{
+    font-family: arial;
+    position: absolute;
+    left: 57%;  
+}
+.signup .text1{
+	font-family: barlow;
+	font-weight : bold;
+	color : #9097C0;
+    font-size: 40px;
+    margin: 25px 0;
+}
+.signup .text2{
+	font-family: coda;
+	font-weight : italic;
+	color : #A7BBEC;
+    margin: -20px 5px;
+    font-size: 18px;
+}
+.signup .sform input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.signup .sform .lname{
+    margin-left: 15px;
+}
+.signup .sform .email,
+.signup .sform .password{
+    margin-top: 20px;
+    width: 410px;
+
+}
+.sform .birthday{
+    margin-top: 15px;
+	font-family: coda;
+    font-size: 20px;
+    font-weight: bold;
+    color: #A7BBEC;
+}.sform .date{
+    margin-top: 5px;
+}
+
+.sform .month,
+.sform .day,
+.sform .year{
+    height: 28px;
+	margin-left: -5px;
+}
+.sform .gender{
+    margin-top: 5px;
+	margin-bottom : -25px;
+	font-family: coda;
+    font-size: 20px;
+    font-weight: bold;
+    color: #A7BBEC;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.sform input[type="radio"]{
+    height: 15px;
+    margin-left: -85px;
+    margin-top: 30px;
+}
+.signup .sform input[value="female"]{
+    margin-left: -100px;
+}
+.signup .sform .female{
+    margin-left: 25px;
+    margin-top: -30px;
+}
+.signup .sform .male{
+    margin-left: 135px;
+	margin-top: -30px;
+}
+.signup .sform .custom{
+    margin-left: 245px;
+	margin-top: -30px;
+}
+.signup .sform .agreement{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: grey;
+}
+.signup .sform .btnup{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #BD6B73;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: #A30B37;
+}
+.signup .sform .btnup:hover{
+    background: #A30B37;
+}
